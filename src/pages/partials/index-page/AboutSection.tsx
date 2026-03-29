@@ -121,14 +121,14 @@ export default function AboutSection(){
                 onClick={() => resumeSetIsOpen(false)}
             >
                 <div
-                    className="bg-white rounded-lg p-6 shadow-lg flex flex-col gap-5 w-5xl max-w-full"
+                    className="bg-white p-6 shadow-lg flex flex-col gap-5 w-5xl max-w-full"
                     onClick={(e) => e.stopPropagation()} // prevent closing when clicking inside
                 >
                     <iframe src="/docs/resume-rowelljay.pdf" className="w-full h-[80vh]" ></iframe>
                     <div className="flex flex-col items-end">
                         <button
                             onClick={() => resumeSetIsOpen(false)}
-                            className="px-4 py-2 bg-(--secondary-primary-color) text-(--primary-color) hover:bg-(--primary-color) hover:text-white rounded cursor-pointer transition-all duration-500 ease-in-out"
+                            className="px-4 py-2 bg-(--secondary-primary-color) text-(--primary-color) hover:bg-(--primary-color) hover:text-white cursor-pointer transition-all duration-500 ease-in-out"
                         >
                             Close
                         </button>
