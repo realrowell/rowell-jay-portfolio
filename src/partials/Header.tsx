@@ -7,7 +7,7 @@ import CloseIcon from '@mui/icons-material/Close'
 export default function Header(){
     const [isOpen, setIsOpen] = useState(false)
 
-    const closeMenu = () => setIsOpen(false)
+    // const closeMenu = () => setIsOpen(false)
 
     return <>
         <header className="bg-(--primary-color) text-white p-4">

@@ -1,5 +1,5 @@
-import CtaButton from '../../../components/ui/CtaButton'
-import { useState, useEffect  } from "react";  
+// import CtaButton from '../../../components/ui/CtaButton'
+import { useState} from "react";  
 
 
 export default function AboutSection(){
