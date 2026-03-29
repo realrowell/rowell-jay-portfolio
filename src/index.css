@@ -2,12 +2,12 @@
 @import "tailwindcss";
 
 :root {
-  --text: #6b6375;
+  --text: #000000;
   --text-h: #08060d;
   --bg: #fff;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
-  --primary-color: #338BFF;
+  --primary-color: #006eff;
   --secondary-light-color: #F5F5F5;
   --secondary-primary-color: #F2F7FB;
   --bg-shadow-color: #545454;
@@ -71,19 +71,20 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  color: var(--text);
 }
 
 h1,
 h2 {
   font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+  /* font-weight: 500; */
+  /* color: var(--text-h); */
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 70px;
   letter-spacing: -1.68px;
-  margin: 32px 0;
+  margin: 25px 0;
   @media (max-width: 1024px) {
     font-size: 36px;
     margin: 20px 0;
@@ -109,9 +110,9 @@ h3 {
 }
 p {
   font-size: 18px;
-  line-height: 100%;
-  letter-spacing: -0.24px;
-  margin: 0;
+  /* line-height: 100%; */
+  /* letter-spacing: -0.24px;
+  margin: 0; */
   @media (max-width: 1024px) {
     font-size: 15px;
   }
@@ -130,4 +131,14 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+.fs-25{
+  font-size: 25px;
+}
+.fs-20{
+  font-size: 20px;
+}
+.fs-18{
+  font-size: 18px;
 }
