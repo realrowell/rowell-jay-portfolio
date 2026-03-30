@@ -45,7 +45,7 @@
     "status": "under development", 
     "year": 2026,
     "imageUrl": "/images/projects/spapps-pos-001.jpeg",
-    "featuredImages": [],
+    "featuredImages": ["/images/projects/spapps-pos-001.jpeg"],
     "projectUrl": "",
     "tags": ["Laravel", "PHP", "HTML", "CSS", "JavaScript", "Vue", "Tailwind", "ShadCn", "MySQL"]
   },
@@ -58,7 +58,7 @@
     "impact": "Provided a webpage where all relevant websites and portals for employees are listed.",
     "description": "A web-based application that serves as a centralized hub for employees to access various company portals and resources, improving accessibility and user experience.",
     "imageUrl": "/images/projects/portalhub-001.jpeg",
-    "featuredImages": [],
+    "featuredImages": ["/images/projects/portalhub-001.jpeg"],
     "projectUrl": "",
     "tags": ["PHP", "HTML", "CSS", "JavaScript", "Bootstrap"]
   },
@@ -84,7 +84,7 @@
     "impact": "Installed and maintained the office network infrastructure, ensuring reliable connectivity and security for all employees.",
     "description": "Responsible for the installation, configuration, and maintenance of the office network infrastructure, including routers, switches, firewalls, and wireless access points. Ensured reliable connectivity and security for all employees, and provided technical support for network-related issues.",
     "imageUrl": null,
-    "featuredImages": [],
+    "featuredImages": ["/images/banner-placeholder.jpg"],
     "projectUrl": "",
     "tags": ["TP-Link Omada", "Printer Server", "File Server", "Network Security", "MAC-based Access Control"]
   }

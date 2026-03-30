@@ -133,6 +133,13 @@ code {
   background: var(--code-bg);
 }
 
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
 .fs-35{
   font-size: 35px;
 }
@@ -147,4 +154,7 @@ code {
 }
 .fs-15{
   font-size: 15px;
+}
+.fs-12{
+  font-size: 12px;
 }

@@ -17,7 +17,27 @@ export default function AboutSection(){
     //     };
     // }, [resumeIsOpen]);
 
-    return <>
+    return <> 
+        <style>
+            {`
+                table{
+                    tr {
+                        &:nth-child(even) {
+                            background-color: #fff;
+                        } 
+                    }
+                    th {
+                        text-align: left;
+                        font-weight: 600;
+                        padding: 10px 20px; 
+                    }
+                    td {
+                        text-align: left;
+                        padding: 10px 20px; 
+                    }
+                }
+            `}
+        </style>
         <div id="about" className="flex flex-col md:flex-row gap-5">
             <div className="flex flex-col gap-10 flex-1 text-start pt-10 pb-10 p-5">
                 <div className="flex flex-col gap-5">
@@ -43,34 +63,34 @@ export default function AboutSection(){
                 </div>
             </div>
             <div className="flex flex-col gap-5 flex-1 bg-(--secondary-light-color) pt-10 pb-10 text-start p-5">
-                <table className="border-separate border-spacing-5 table-auto">
+                <table className="table-auto">
                     <thead>
                         <tr>
-                            <th className='text-start'>Domain</th>
-                            <th className='text-start'>Focus Areas</th> 
+                            <th>Domain</th>
+                            <th>Focus Areas</th> 
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td className='align-text-top'>Front-End</td>
+                            <td>Front-End</td>
                             <td>
                                 Responsive Design, Interactive UI, State Management
                             </td> 
                         </tr>
                         <tr>
-                            <td className='align-text-top'>Back-End</td>
+                            <td>Back-End</td>
                             <td>
                                 Server-Side Logic, API Design, Security Protocols
                             </td> 
                         </tr>
                         <tr>
-                            <td className='align-text-top'>Database</td>
+                            <td>Database</td>
                             <td>
                                 Schema Architecture, Query Optimization, Data Migration
                             </td> 
                         </tr>
                         <tr>
-                            <td className='align-text-top'>Maintenance</td>
+                            <td>Maintenance</td>
                             <td>
                                 Environment Management, Debugging, Deployment
                             </td> 

@@ -10,13 +10,10 @@ export default function ProjectsSection(){
             </div>
             <div className="overflow-x-auto"> 
                 <div className="md:grid md:grid-cols-4 flex flex-row gap-3">
-                    {projects.map((project) => ( 
-                        <ProjectCard 
-                            title={project.title} 
-                            image={project.imageUrl || "/images/banner-placeholder.jpg"}
-                            role={project.role}
-                            status={project.status}
-                            impact={project.impact}
+                    {projects.map((project, index) => ( 
+                        <ProjectCard  
+                            key={index}
+                            project={project}
                         /> 
                     ))}
                 </div>
