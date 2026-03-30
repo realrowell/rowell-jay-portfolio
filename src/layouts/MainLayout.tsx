@@ -1,4 +1,5 @@
 import { Outlet } from 'react-router-dom'
+import ScrollToHash from '../components/common/ScrollToHash'
 import Header from '../partials/Header'
 import Footer from '../partials/Footer'
 
@@ -15,6 +16,7 @@ export default function MainLayout() {
         `} 
     </style>
     <div className="flex flex-col min-h-screen">
+      <ScrollToHash />
       <Header />
       <main className='grow main-container'>
         <Outlet />

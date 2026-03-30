@@ -18,7 +18,7 @@ export default function AboutSection(){
     // }, [resumeIsOpen]);
 
     return <>
-        <div className="flex flex-col md:flex-row gap-5">
+        <div id="about" className="flex flex-col md:flex-row gap-5">
             <div className="flex flex-col gap-10 flex-1 text-start pt-10 pb-10 p-5">
                 <div className="flex flex-col gap-5">
                     <h2 className="text-(--primary-color) m-0 font-semibold">About Me</h2>
