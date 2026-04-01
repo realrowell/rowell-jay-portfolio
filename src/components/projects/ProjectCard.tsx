@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                         <p className='fs-15 '><span className='font-semibold'>Role: </span>{project.role}</p>
                         <p className='fs-15 '><span className='font-semibold'>Status: </span>{project.status}</p>
                         {project.impact && (
-                            <p className='fs-15 leading-normal'><span className='font-semibold'>Impact: </span>{project.impact}</p>
+                            <p className='fs-15 leading-normal line-clamp-3'><span className='font-semibold'>Impact: </span>{project.impact}</p>
                         )}
                     </div>
                 </div>

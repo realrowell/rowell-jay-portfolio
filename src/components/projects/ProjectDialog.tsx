@@ -2,6 +2,7 @@ import { useState } from 'react';
 import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
 import type { Project } from '../../types/project';
 import Carousel from './Carousel';
+import { Link } from 'react-router-dom';
 
 interface ProjectDialogProps {
     project: Project;
@@ -29,7 +30,7 @@ export default function ProjectDialog({ project }: ProjectDialogProps) {
                                 <h2 className="fs-25 font-semibold ">{project.title}</h2> 
                                 <div className="flex flex-row gap-3">
                                     {project.tags.map((tag, index) => (
-                                        <span key={index} className="fs-12 px-2 bg-(--secondary-primary-color) text-black rounded border border-(--primary-color)">
+                                        <span key={index} className="fs-12 px-2 bg-(--secondary-primary-color) text-(--primary-color) rounded border border-(--primary-color)">
                                             {tag}
                                         </span>
                                     ))}
@@ -52,10 +53,17 @@ export default function ProjectDialog({ project }: ProjectDialogProps) {
                                 </button> */}
                                 <button
                                     onClick={() => setIsOpen(false)}
-                                    className="fs-15 px-3 py-1 bg-(--primary-color) text-white border border-black hover:bg-blue-700 hover:cursor-pointer transition-colors"
+                                    className="fs-15 px-3 py-1 bg-(--secondary-primary-color) text-(--primary-color) border border-(--primary-color) hover:text-white hover:bg-(--primary-color) hover:cursor-pointer transition-colors"
                                 >
                                     Close
                                 </button>
+                                {project.studyUrl && ( 
+                                    <Link to={project.studyUrl || "#"} rel="noopener noreferrer">
+                                        <button className='fs-15 px-3 py-1 bg-(--primary-color) text-white border border-(--primary-color) hover:bg-blue-700 hover:cursor-pointer transition-colors'>
+                                            Case Study
+                                        </button>
+                                    </Link>
+                                )}
                             </div>
                         </div>
                     </div>

@@ -4,7 +4,7 @@ import AboutSection from './partials/index-page/AboutSection'
 import ProjectsSection from './partials/index-page/ProjectsSection'
 import SkillsSection from './partials/index-page/SkillsSection'
 import BannerCtaSection from './partials/index-page/BannerCtaSection'
-// import CaseStudiesSection from './partials/index-page/CaseStudiesSection'
+import CaseStudiesSection from './partials/index-page/CaseStudiesSection'
 import ContactSection from './partials/index-page/ContactSection'
 
 export default function IndexPage() {
@@ -14,7 +14,7 @@ export default function IndexPage() {
     <ProjectsSection/>
     <SkillsSection/>
     <BannerCtaSection/>
-    {/* <CaseStudiesSection/> */}
+    <CaseStudiesSection/>
     <ContactSection/>
   </>
 }

@@ -1,7 +1,7 @@
 [
   {
     "slug": "ezleave",
-    "title": "Leave Management System",
+    "title": "EZLEAVE — Web-Based Leave Management System",
     "role": "Full Stack Developer",
     "status": "Deployed & Maintained",
     "impact": "Automated Leave Filing, Approval, and Leave Credit Management for Bioseed Research Ph. Inc., improving efficiency and accuracy in leave management processes.",
@@ -9,8 +9,9 @@
     "year": 2024,
     "imageUrl": "/images/projects/lms-001.png",
     "featuredImages": ["/images/projects/lms-001.png","/images/projects/lms-002.png","/images/projects/lms-003.png"],
-    "projectUrl": "/demo-page/ezleave/login.html",
-    "tags": ["Laravel", "PHP", "jQuery", "HTML", "CSS", "JavaScript", "Bootstrap", "MySQL"]
+    "projectUrl": "/case-studies/ezleave",
+    "studyUrl": "/case-studies/ezleave",
+    "tags": ["Laravel", "PHP", "jQuery", "HTML", "CSS", "JavaScript", "Bootstrap", "MySQL"] 
   },
   {
     "slug": "rms-003",
@@ -34,7 +35,7 @@
     "description": "A web-based application that allows organizations to monitor and track attendance for events and activities, providing real-time data and reports.",
     "year": 2025,
     "imageUrl": "/images/projects/attendance-001.jpeg",
-    "featuredImages": [],
+    "featuredImages": ["/images/projects/attendance-001.jpeg"],
     "projectUrl": "",
     "tags": ["Laravel", "PHP", "HTML", "CSS", "JavaScript", "React", "Tailwind", "ShadCn", "MySQL"]
   },
@@ -71,7 +72,7 @@
     "impact": "Provided maintenance and updates for the Official Website of Bioseed Research Ph.",
     "description": "A web-based application that serves as the official website for Bioseed Research Ph. Inc., providing information about the company, its products, and services.",
     "imageUrl": "/images/projects/brpi-001.jpeg",
-    "featuredImages": [],
+    "featuredImages": ["/images/projects/brpi-001.jpeg"],
     "projectUrl": "",
     "tags": ["WordPress", "PHP", "HTML", "CSS", "JavaScript", "MySql"]
   },

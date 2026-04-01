@@ -4,6 +4,7 @@ import IndexPage from '../pages/IndexPage'
 import ProjectsPage from '../pages/ProjectsPage'
 import CaseStudyPage from '../pages/CaseStudyPage'
 import NotFoundPage from '../pages/NotFoundPage'
+import EzleaveStudy from '../pages/partials/case-studies/EzleaveStudy'
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +28,21 @@ export const router = createBrowserRouter([
         path: 'case-study',
         element: <CaseStudyPage />,
       },
+    ],
+  },
+  {
+    path: '/case-studies',
+    element: <MainLayout />,
+    errorElement: <NotFoundPage />,
+    children: [
+      // {
+      //   index: true,
+      //   element: <IndexPage />,
+      // },
+      {
+        path: 'ezleave',
+        element: <EzleaveStudy />,
+      },  
     ],
   },
 ])

@@ -9,5 +9,6 @@ export interface Project{
     imageUrl?: string | null;
     featuredImages?: string[];
     projectUrl?: string;
+    studyUrl?: string;
     tags: string[];
 }

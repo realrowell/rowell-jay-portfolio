@@ -12,13 +12,14 @@ export default function MainLayout() {
             width: 1600px;
             max-width: 100%;
             margin: 0 auto;
-          }
+            
+          } 
         `} 
     </style>
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen ">
       <ScrollToHash />
       <Header />
-      <main className='grow main-container'>
+      <main className='grow main-container '>
         <Outlet />
       </main>
       <Footer />

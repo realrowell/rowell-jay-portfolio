@@ -12,7 +12,7 @@ export default function Header(){
     return <>
         <header className="bg-(--primary-color) text-white p-4">
             <div className="main-container flex flex-row justify-between">
-                <Link to={'/'} className="font-bold" onClick={closeMenu}>Rowell Jay</Link>
+                <Link to={'/'} className="font-bold" onClick={closeMenu}><span className='font-normal'>Jay's</span> Portfolio</Link>
                 <div className="hidden md:flex flex-row gap-10">  
                     <Link to={'/#about'} className="group relative w-max">
                         <span>About</span>

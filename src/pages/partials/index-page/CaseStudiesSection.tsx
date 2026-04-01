@@ -1,18 +1,12 @@
+import { Link } from "react-router-dom"
 import CaseStudyCard from "../../../components/projects/CaseStudyCard"
 
 const caseStudies = [
     {
-        title: "Case study Title",
-    },
-    {
-        title: "EZLEAVE Case Study"
-    },
-    {
-        title: "EZLEAVE UI/UX Case Study"
-    },
-    {
-        title: "Recruitment System Case Study"
-    }
+        title: "EZLEAVE — Web-Based Leave Management System",
+        url: "/case-studies/ezleave",
+        image: "images/projects/lms-001.png"
+    }, 
 ]
 
 export default function CaseStudiesSection(){
@@ -25,9 +19,9 @@ export default function CaseStudiesSection(){
             <div className="overflow-auto">
                 <div className="flex flex-row md:grid md:grid-cols-5 gap-3">  
                     {caseStudies.map((caseStudy) => (
-                        <CaseStudyCard
-                            title={caseStudy.title} 
-                        />
+                        <Link to={caseStudy.url || "#"} key={caseStudy.title}>
+                            <CaseStudyCard title={caseStudy.title} image={caseStudy.image}/>
+                        </Link>
                     ))}
                 </div>
             </div>
