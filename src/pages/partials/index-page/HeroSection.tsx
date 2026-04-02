@@ -17,11 +17,11 @@ export default function HeroSection() {
         }
       `}
     </style>
-    <div className="flex flex-col md:flex-row h-full gap-3 bg-grid">
-      <div className="flex flex-col flex-1 justify-center items-start gap-10 md:ps-10 ps-5">
+    <div className="flex flex-col md:flex-row md:h-full h-full gap-3 bg-grid mb-10">
+      <div className="flex flex-col flex-1 justify-center items-start gap-10 md:px-10 px-5 md:h-full min-h-100">
         <div className="flex flex-col items-start gap-5">
           <h1 className="text-(--primary-color) m-0 font-semibold">Hi, I'm Rowell Jay!</h1> 
-          <h2 className='font-normal'>a Full-stack Developer</h2>
+          <h2 className='font-normal'>a Full-stack Web Developer</h2>
         </div>
         <div className="flex flex-col items-start gap-5 text-start">
           <Link to={'#projects'} >
@@ -35,7 +35,7 @@ export default function HeroSection() {
         </div>
       </div>
       <div className="flex flex-col flex-1">
-        <img className="h-full object-cover ..." src="/images/portrait-01.jpg" />
+        <img className="h-full object-cover ... md:aspect-auto aspect-video" src="/images/portrait-01.jpg" />
       </div>
     </div>
   </>

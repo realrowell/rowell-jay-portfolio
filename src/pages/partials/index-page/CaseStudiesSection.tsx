@@ -1,13 +1,6 @@
 import { Link } from "react-router-dom"
 import CaseStudyCard from "../../../components/projects/CaseStudyCard"
-
-const caseStudies = [
-    {
-        title: "EZLEAVE — Web-Based Leave Management System",
-        url: "/case-studies/ezleave",
-        image: "images/projects/lms-001.png"
-    }, 
-]
+import { caseStudies } from "../../../data/case-studies" 
 
 export default function CaseStudiesSection(){
     return <>

@@ -11,10 +11,10 @@ export default function Footer(){
                     <h4 className="fs-18 m-0 text-white">Ready to start? Let’s talk.</h4>
                 </div>
                 <div className="flex flex-row gap-5">
-                    <a href="mailto:realrowell@gmail.com">
+                    <a href="https://www.linkedin.com/in/rowell-jay-real-9a6293213/">
                         <LinkedInIcon className="font-2xl" sx={{ fontSize: 30, color: 'white'}} />
                     </a>
-                    <a href="mailto:realrowell@gmail.com">
+                    <a href="https://github.com/realrowell">
                         <GitHubIcon className="font-2xl" sx={{ fontSize: 30, color: 'white'}} />
                     </a>
                     <a href="mailto:realrowell@gmail.com">

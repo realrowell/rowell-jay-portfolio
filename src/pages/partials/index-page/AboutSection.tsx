@@ -43,15 +43,18 @@ export default function AboutSection(){
                 <div className="flex flex-col gap-5">
                     <h2 className="text-(--primary-color) m-0 font-semibold">About Me</h2>
                     <h3 className="m-0">
-                        From Concept to Deployment: Providing End-to-End Web Solutions
+                        From Concept to Deployment: Building Practical, User-Centered Web Solutions
                     </h3>
                 </div>
                 <div className="flex flex-col gap-5">
                     <p className="">
-                        With a BS in Information Technology and three years spent deep in the development of full-stack applications, I specialize in creating tools that work. I’ve successfully delivered four distinct systems, each designed to solve specific operational hurdles. 
+                        I’m a full-stack web developer with a background in Information Technology and hands-on experience developing and maintaining real-world systems in a corporate environment. Over the past three years, I’ve worked extensively with Laravel, PHP, and modern frontend tools to build solutions that streamline workflows and solve everyday operational challenges.
                     </p>
                     <p>
-                        My experience isn't just about the 'build'—it's about the 'sustain.' Having managed and maintained web environments for past collaborators, I understand that a true solution isn't finished at launch; it's an evolving asset. If there is a bottleneck in a workflow, I build the bridge to cross it.
+                        In my role as an IT Associate, I didn’t just develop systems, I helped run them. From maintaining company websites to building internal tools like employee leave management and attendance systems, I’ve learned that effective software isn’t just functional at launch, it needs to be reliable, scalable, and easy to sustain.
+                    </p>
+                    <p>
+                        What sets me apart is my blend of technical and creative skills. With experience in design, photography, and videography, I approach development with a strong focus on user experience and visual clarity. I build systems that not only work efficiently but also feel intuitive to use.
                     </p>
                     <div className="flex flex-row"> 
                         <button className="relative inline-block font-medium group py-2 px-5 hover:cursor-pointer" onClick={() => resumeSetIsOpen(true)}>

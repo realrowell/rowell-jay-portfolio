@@ -17,28 +17,28 @@ export default function ContactSection(){
                     <h4 className="fs-35">Get in touch</h4>
                     <div className="flex flex-col gap-5 items-start">
                         <div className="flex flex-row gap-3 justify-center items-center">
-                            <LinkedInIcon className="font-2xl" sx={{ fontSize: 50}} />
+                            <LinkedInIcon className="font-2xl" sx={{ fontSize: 40}} />
                             <div className="flex flex-col text-start">
                                 <h5 className="fs-20 md:fs-25 m-0 font-semibold">LinkedIn</h5>
-                                <a href="https://www.linkedin.com/in/rowell-jay-real-9a6293213/" className="fs-15 md:fs-18 m-0" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/rowell-jay-real-9a6293213/" className="fs-15 md:fs-18 m-0 hover:underline" target="_blank" rel="noopener noreferrer">
                                     Connect with me on LinkedIn
                                 </a>
                             </div>
                         </div>
                         <div className="flex flex-row gap-3 justify-center items-center">
-                            <GitHubIcon className="font-2xl" sx={{ fontSize: 50}} />
+                            <GitHubIcon className="font-2xl" sx={{ fontSize: 40}} />
                             <div className="flex flex-col text-start">
                                 <h5 className="fs-20 md:fs-25 m-0 font-semibold">GitHub</h5>
-                                <a href="https://github.com/realrowell" className="fs-15 md:fs-18 m-0" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/realrowell" className="fs-15 md:fs-18 m-0 hover:underline" target="_blank" rel="noopener noreferrer">
                                     Check out my projects on GitHub
                                 </a>
                             </div>
                         </div>
                         <div className="flex flex-row gap-3 justify-center items-center">
-                            <EmailIcon className="font-2xl" sx={{ fontSize: 50}} />
+                            <EmailIcon className="font-2xl" sx={{ fontSize: 40}} />
                             <div className="flex flex-col text-start">
                                 <h5 className="fs-20 md:fs-25 m-0 font-semibold">Email</h5>
-                                <a href="mailto:realrowell@gmail.com" className="fs-15 md:fs-18 m-0" target="_blank" rel="noopener noreferrer">
+                                <a href="mailto:realrowell@gmail.com" className="fs-15 md:fs-18 m-0 hover:underline" target="_blank" rel="noopener noreferrer">
                                     Send me an email at realrowell@gmail.com
                                 </a>
                             </div>

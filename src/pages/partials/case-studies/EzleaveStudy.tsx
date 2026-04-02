@@ -189,7 +189,7 @@ export default function EzleaveStudy() {
                 <div className="flex flex-col text-start">
                     <h3 className="fs-20 font-semibold">Screenshots</h3> 
                 </div>
-                <div className="grid grid-cols-2 gap-3"> 
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3"> 
                     {ezleave.featuredImages?.map((image,index) => ( 
                         <img key={index} className='w-full h-auto aspect-video object-cover' src={image} alt={"ezleave_image_"+index} />
                     ))} 

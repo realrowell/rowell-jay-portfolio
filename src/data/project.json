@@ -7,8 +7,9 @@
     "impact": "Automated Leave Filing, Approval, and Leave Credit Management for Bioseed Research Ph. Inc., improving efficiency and accuracy in leave management processes.",
     "description": "This is Employee Leave Management System where customized to fit the needs of the company. The used of Laravel Framework offers the security, reliability, and scalability of the project where the project can be expanded in the future to add more features and module. In this project, I used PHP for the server side programming and Bootstrap, CSS, JavaScript, and JQuery for the front-end rendering.",
     "year": 2024,
-    "imageUrl": "/images/projects/lms-001.png",
-    "featuredImages": ["/images/projects/lms-001.png","/images/projects/lms-002.png","/images/projects/lms-003.png"],
+    "imageUrl": "/images/projects/lms-001.jpeg",
+    "featuredImages": ["/images/projects/lms-001.jpeg","/images/projects/lms-002.jpeg","/images/projects/lms-003.jpeg","/images/projects/lms-004.jpeg","/images/projects/lms-005.jpeg","/images/projects/lms-006.jpeg","/images/projects/lms-007.jpeg"
+        ,"/images/projects/lms-008.jpeg","/images/projects/lms-009.jpeg","/images/projects/lms-010.jpeg"],
     "projectUrl": "/case-studies/ezleave",
     "studyUrl": "/case-studies/ezleave",
     "tags": ["Laravel", "PHP", "jQuery", "HTML", "CSS", "JavaScript", "Bootstrap", "MySQL"] 
@@ -59,7 +60,7 @@
     "impact": "Provided a webpage where all relevant websites and portals for employees are listed.",
     "description": "A web-based application that serves as a centralized hub for employees to access various company portals and resources, improving accessibility and user experience.",
     "imageUrl": "/images/projects/portalhub-001.jpeg",
-    "featuredImages": ["/images/projects/portalhub-001.jpeg"],
+    "featuredImages": ["/images/projects/portalhub-001.jpeg","/images/projects/portalhub-002.jpeg","/images/projects/portalhub-003.jpeg"],
     "projectUrl": "",
     "tags": ["PHP", "HTML", "CSS", "JavaScript", "Bootstrap"]
   },
@@ -72,7 +73,7 @@
     "impact": "Provided maintenance and updates for the Official Website of Bioseed Research Ph.",
     "description": "A web-based application that serves as the official website for Bioseed Research Ph. Inc., providing information about the company, its products, and services.",
     "imageUrl": "/images/projects/brpi-001.jpeg",
-    "featuredImages": ["/images/projects/brpi-001.jpeg"],
+    "featuredImages": ["/images/projects/brpi-001.jpeg","/images/projects/brpi-002.jpeg","/images/projects/brpi-003.jpeg","/images/projects/brpi-004.jpeg","/images/projects/brpi-005.jpeg"],
     "projectUrl": "",
     "tags": ["WordPress", "PHP", "HTML", "CSS", "JavaScript", "MySql"]
   },
