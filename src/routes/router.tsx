@@ -5,6 +5,7 @@ import ProjectsPage from '../pages/ProjectsPage'
 import CaseStudyPage from '../pages/CaseStudyPage'
 import NotFoundPage from '../pages/NotFoundPage'
 import EzleaveStudy from '../pages/partials/case-studies/EzleaveStudy'
+import OfficeNetworkResourceInfrastructureStudy from '../pages/partials/case-studies/NetworkInstallationStudy'
 
 export const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ export const router = createBrowserRouter([
       {
         path: 'ezleave',
         element: <EzleaveStudy />,
+      },
+      {
+        path: 'office-network-resource-infrastructure',
+        element: <OfficeNetworkResourceInfrastructureStudy />,
       },  
     ],
   },

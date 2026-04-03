@@ -79,8 +79,8 @@
   },
   {
     "slug": "office-network-installation",
-    "title": "Office Network Installation and Maintenance",
-    "role": "Network Administrator",
+    "title": "Centralized Office Network & Resource Infrastructure",
+    "role": "Lead Infrastructure Specialist",
     "status": "Deployed & Maintained", 
     "year": 2026,
     "impact": "Installed and maintained the office network infrastructure, ensuring reliable connectivity and security for all employees.",
@@ -88,6 +88,7 @@
     "imageUrl": null,
     "featuredImages": ["/images/banner-placeholder.jpg"],
     "projectUrl": "",
+    "studyUrl": "/case-studies/office-network-resource-infrastructure",
     "tags": ["TP-Link Omada", "Printer Server", "File Server", "Network Security", "MAC-based Access Control"]
   }
   

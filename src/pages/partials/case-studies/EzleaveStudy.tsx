@@ -29,11 +29,11 @@ export default function EzleaveStudy() {
             <div className="flex md:flex-row flex-col justify-between lg:p-5 md:p-5 p-5 gap-10 bg-(--secondary-primary-color)">
                 <div className="flex flex-col text-start gap-5 flex-2 justify-between">
                     <div className="flex flex-col h-full justify-center">
-                        <h2>{ezleave.title || 'EZLEAVE — Web-Based Leave Management System'}</h2>
+                        <h2>CASE STUDY: {ezleave.title || 'EZLEAVE — Web-Based Leave Management System'}</h2>
                         <p className="text-gray-600">A secure, role-based leave management platform built for a local agriculture company to support remote field employees and streamline HR workflows.</p>
                     </div>
                     <div className="flex flex-row gap-5 h-full items-center"> 
-                        <Link to="/case-studies/ezleave/#screenshots" className="px-5 py-3 fs-20 bg-(--secodary-primary-color) text-(--primary-color) border border-(--primary-color) hover:cursor-pointer hover:bg-(--primary-color) hover:text-white transition-colors duration-100">
+                        <Link to="#screenshots" className="px-5 py-3 fs-20 bg-(--secodary-primary-color) text-(--primary-color) border border-(--primary-color) hover:cursor-pointer hover:bg-(--primary-color) hover:text-white transition-colors duration-100">
                             View Screenshots
                         </Link> 
                     </div>
