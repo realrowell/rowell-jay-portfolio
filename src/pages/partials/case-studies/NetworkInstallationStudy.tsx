@@ -232,7 +232,7 @@ export default function EzleaveStudy() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3"> 
                     {project.featuredImages?.map((image,index) => ( 
-                        <img key={index} className='w-full h-auto aspect-video object-cover' src={image} alt={"ezleave_image_"+index} />
+                        <img key={index} className='w-full h-auto aspect-4/6 object-cover' src={image} alt={"ezleave_image_"+index} />
                     ))} 
                 </div>
             </div>

@@ -85,8 +85,8 @@
     "year": 2026,
     "impact": "Installed and maintained the office network infrastructure, ensuring reliable connectivity and security for all employees.",
     "description": "Responsible for the installation, configuration, and maintenance of the office network infrastructure, including routers, switches, firewalls, and wireless access points. Ensured reliable connectivity and security for all employees, and provided technical support for network-related issues.",
-    "imageUrl": null,
-    "featuredImages": ["/images/banner-placeholder.jpg"],
+    "imageUrl": "/images/projects/netins-001.jpeg",
+    "featuredImages": ["/images/projects/netins-001.jpeg","/images/projects/netins-002.jpeg","/images/projects/netins-003.jpeg","/images/projects/netins-004.jpeg","/images/projects/netins-005.jpeg","/images/projects/netins-006.jpeg"],
     "projectUrl": "",
     "studyUrl": "/case-studies/office-network-resource-infrastructure",
     "tags": ["TP-Link Omada", "Printer Server", "File Server", "Network Security", "MAC-based Access Control"]

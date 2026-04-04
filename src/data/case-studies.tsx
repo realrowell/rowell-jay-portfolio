@@ -9,6 +9,6 @@ export const caseStudies = [
         slug: "office-network-resource-infrastructure",
         title: "CASE STUDY: Centralized Office Network & Resource Infrastructure",
         url: "/case-studies/office-network-resource-infrastructure",
-        image: "/images/banner-placeholder.jpg"
+        image: "/images/projects/netins-001.jpeg"
     }, 
 ]
