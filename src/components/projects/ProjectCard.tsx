@@ -18,6 +18,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                         <p className='fs-15 '><span className='font-semibold'>Status: </span>{project.status}</p>
                         {project.impact && (
                             <p className='fs-15 leading-normal line-clamp-3'><span className='font-semibold'>Impact: </span>{project.impact}</p>
+                        ) || 
+                        project.description && (
+                            <p className='fs-15 leading-normal line-clamp-3'><span className='font-semibold'>Description: </span>{project.description}</p>
                         )}
                     </div>
                 </div>

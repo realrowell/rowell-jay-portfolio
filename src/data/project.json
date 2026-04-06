@@ -45,6 +45,7 @@
     "title": "Point-of-Sale System",
     "role": "Full-stack Developer",
     "status": "under development", 
+    "description": "A high-performance SPA built to bridge the gap between retail operations and digital record-keeping.",
     "year": 2026,
     "imageUrl": "/images/projects/spapps-pos-001.jpeg",
     "featuredImages": ["/images/projects/spapps-pos-001.jpeg"],

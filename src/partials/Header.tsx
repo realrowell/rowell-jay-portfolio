@@ -59,7 +59,7 @@ export default function Header(){
                         <Link to={'/#contact'} className="group relative w-max" onClick={closeMenu}>
                             <span>Contact</span>
                             <span className="absolute -bottom-1 right-0 w-0 transition-all h-0.5 bg-white group-hover:w-full"></span>
-                        </Link>
+                        </Link> 
                     </nav>
                 </div>
             )}
