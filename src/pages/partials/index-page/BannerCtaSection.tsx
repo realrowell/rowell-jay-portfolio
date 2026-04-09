@@ -6,7 +6,7 @@ export default function BannerCtaSection(){
             <BannerCta
                 description="Let’s turn your requirements into a working system."
                 cta_text="LET'S WORK TOGETHER"
-                url=""
+                url="/#contact"
             />
         </div>
     </>
